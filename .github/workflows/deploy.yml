@@ -33,6 +33,7 @@ on:
     branches:
       - master
       - main
+      - release
     paths:
       - "assets/**"
       - "_sass/**"
