@@ -27,8 +27,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm interested in a wide field of studies, but my current research focuses on computer architecture. Specifically, I'm working on specialized microarchitectures in processor frontends for cloud computing workloads to improve energy efficiency and lowering environmental impact. Currently, I'm working on improving caching efficiency to reduce the pressure on the core's frontend.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Outside my primary field of study, I'm highly interested in local and international politics and negotiations. I highly encourage engineering and natural science students to get negotiation training, as the knowledge we gain during our education and on the job is highly important to modern society.
+ 
+## Interests
+  * Computer Architecture
+  * Workload Characterization
+  * Negotiations
+  * Mountaineering
