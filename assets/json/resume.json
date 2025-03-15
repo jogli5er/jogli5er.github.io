@@ -1,37 +1,36 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "name": "Roman K. Brunner",
+    "label": "Computer Scientist",
+    "image": "prof_pic_color.jpg",
+    "email": "roman.k.brunner@ieee.org",
+    "phone": "+47 969 22 586",
+    // "url": "https://alshedivat.github.io/al-folio/",
+    "summary": "Experienced softare engineer and hardware architect in training",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Odins Veg 3",
+      "postalCode": "7033",
+      "city": "Trondheim",
+      "countryCode": "NO",
+      "region": "Trøndelag"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "roman-brunner",
+        "url": "https://www.linkedin.com/in/roman-brunner/"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
+      "name": "Computer Architecture Laboratory at the Department of Computer Science at NTNU",
+      "position": "PhD Candidate",
+      "url": "https://www.ntnu.edu/employees/romankb",
+      "startDate": "2022-04-01",
+      "summary": "Research focussed on microarchitectural optimizations for cloud computing workloads. The project involves enhancing core frontends and the attached memory hierarchy. The overarching goal is to increase energy and area efficiency of the implementation while considering the broader impact on the entire stack, including compilers, operating systems, and various software systems.",
+      "highlights": [""]
+    }// TODO: ADD MORE HERE
   ],
   "volunteer": [
     {
