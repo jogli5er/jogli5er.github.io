@@ -497,7 +497,7 @@ ninja.data = [{
         title: 'RSS Feed',
         section: 'Socials',
         handler: () => {
-          window.open("//feed.xml", "_blank");
+          window.open("/feed.xml", "_blank");
         },
       },{
       id: 'light-theme',
