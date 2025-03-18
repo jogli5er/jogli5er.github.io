@@ -32,7 +32,7 @@ I am passionate about enhancing processor frontend efficiency to optimize cloud 
 
 ## Research
 
-As a PhD candidate at the [Norwegian University for Science and Technology (NTNU)](https://www.ntnu.edu/), my research centers on microarchitectural and algorithmic specializations in processor frontends for cloud computing. These projects aim to enhance efficiency and reduce the environmental footprint of cloud services—an increasingly crucial challenge as global internet adoption accelerates.
+As a PhD candidate at the [Norwegian University for Science and Technology (NTNU)](https://www.ntnu.edu/), my research centers on microarchitectural and algorithmic specializations in processor frontends for cloud computing. These projects aim to enhance efficiency and reduce the environmental footprint of cloud services—an increasingly crucial challenge as global internet adoption continues.
 
 Achieving a truly efficient cloud computing stack requires optimizations across multiple layers, including hardware, operating systems, compiler support, and workload management. I’m particularly passionate about co-optimizing these elements to drive meaningful advancements in cloud infrastructure.
 
