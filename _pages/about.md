@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.ntnu.edu/idi/cal#/view/about'>CAL@NTNU</a>. Let's look forward, as we can only move into the future.
+subtitle: <a href='https://www.ntnu.edu/idi/cal#/view/about'>CAL@NTNU</a>. Engineering Tomorrow's Cloud, Negotiating Today's Solutions.
 
 profile:
   align: right
@@ -28,8 +28,7 @@ latest_posts:
 ---
 
 
-
-I have a broad range of academic interests, spanning from computer engineering and science to multilateral negotiations. Currently, my primary focus is on computer architecture, 3D reconstruction, and negotiation simulation infrastructure.
+I am passionate about enhancing processor frontend efficiency to optimize cloud computing performance. My diverse academic interests bridge computer engineering, science, and multilateral negotiations, fostering a unique interdisciplinary approach to technological challenges.
 
 ## Research
 
