@@ -131,7 +131,8 @@
       "position": "Communication and Social Media, Webmaster",
       "startDate": "2012-01",
       "endDate": "2017-10",
-      "summary": "Providing web services to the funk band Noble Noise"
+      "summary": "Providing web services to the funk band Noble Noise",
+      "url": "#"
     }
   ],
   "awards": [
@@ -139,13 +140,14 @@
       "title": "Award for Outstanding Matura Paper",
       "date": "2013-01",
       "awarder": "Kantonsschule Zürcher Oberland (KZO)",
-      "summary": "KZO receives each year several hundred matura papers and from those selects up to 10 papers for the Outstanding Award."
+      "summary": "KZO receives each year several hundred matura papers and from those selects up to 10 papers for the Outstanding Award.",
+      "url": "/assets/pdf/shiroproject.pdf"
     },
     {
       "title": "Global Negotiation Conference: Best Delegation Award",
       "date": "2019-07",
       "awarder": "Institute for Global Negotiation",
-      "url": "https://www.global-negotiation.org/gnc",
+      "url": "https://www.global-negotiation.org/gnc/2019",
       "summary": "I received this award for my performance during the multilateral negotiation simulation on the case of Lethal Autonomous Weapon Systems (LAWS), representing Austria."
     }
   ],
@@ -296,11 +298,15 @@
       "summary": "A UI designed for tablet computing devices, built on Gnome 3. At the time, most available tablet operating systems were adaptations of either PC or smartphone platforms, rather than being purpose-built for tablets.",
       "highlights": ["Human-Computer Interaction", "Linux", "Free and Open Software"],
       "startDate": "2012-03",
-      "endDate": "2014-10"
+      "endDate": "2014-10",
+      "url": "/assets/pdf/shiroproject.pdf"
     },
     {
       "name": "Qwittig",
-      "summary": "Qwittig was a cross-platform financial management app designed for groups of all sizes sharing resources. It streamlined bookkeeping and automated inter-party reimbursements, making expense tracking and cost-sharing effortless"
+      "summary": "Qwittig was a cross-platform financial management app designed for groups of all sizes sharing resources. It streamlined bookkeeping and automated inter-party reimbursements, making expense tracking and cost-sharing effortless",
+      "startDate": "2013-08",
+      "endDate": "2014-01",
+      "url": "#"
     }
   ]
 }
