@@ -17,6 +17,7 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+  letter-spacing: 0.035rem;
 }
 
 hr {
@@ -199,6 +200,7 @@ ul.task-list input[type="checkbox"] {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
+    text-align: center;
 
     p {
       display: inline-block;

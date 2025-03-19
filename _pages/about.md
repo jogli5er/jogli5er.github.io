@@ -9,9 +9,11 @@ profile:
   image: prof_pic_color.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Gamle Fysikk 301</p>
-    <p>Sem Sælands vei 5</p>
-    <p>7034 Trondheim</p>
+    <p>
+    Gamle Fysikk 301<br>
+    Sem Sælands vei 5<br>
+    7034 Trondheim<br>
+    </p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
