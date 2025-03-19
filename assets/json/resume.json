@@ -12,7 +12,8 @@
       "postalCode": "7033",
       "city": "Trondheim",
       "countryCode": "NO",
-      "region": "Trøndelag"
+      "region": "Trøndelag",
+      "url": "https://www.openstreetmap.org/?mlat=63.3995&mlon=10.4109#map=11/63.3995/10.4109"
     },
     "profiles": [
       {
@@ -28,6 +29,7 @@
       "position": "PhD Candidate",
       "url": "https://www.ntnu.edu/employees/romankb",
       "location": "Trondheim, Norway",
+      "location-url": "https://www.openstreetmap.org/?mlat=63.39&mlon=10.46#map=4/63.39/10.46",
       "startDate": "2022-04-01",
       "summary": "Research focussed on microarchitectural optimizations for cloud computing workloads. The project involves enhancing core frontends and the attached memory hierarchy. The overarching goal is to increase energy and area efficiency of the implementation while considering the broader impact on the entire stack, including compilers, operating systems, and various software systems."
     },
@@ -36,6 +38,7 @@
       "position": "Internal Technical Consultant",
       "url": "https://www.siga.swiss/no_no",
       "location": "Trondheim, Norway",
+      "location-url": "https://www.openstreetmap.org/?mlat=63.39&mlon=10.46#map=4/63.39/10.46",
       "startDate": "2023-03-01",
       "summary": "Supporting SIGA's digitalization and R&D teams on hard software engineering and research challenges from machine learning to visual computing."
     },
@@ -44,6 +47,7 @@
       "position": "Technical Lead",
       "url": "https://www.siga.swiss/ch_de",
       "location": "Ruswil, Switzerland",
+      "location-url": "https://www.openstreetmap.org/?mlat=47.04&mlon=8.17#map=5/47.04/8.17",
       "startDate": "2021-09-01",
       "endDate": "2022-03-31",
       "summary": "Building up the digital R&D team for SIGA, which by today is creating innovative software solutions to the hard problems of our customers."
@@ -53,6 +57,7 @@
       "position": "Consultant, Full Stack Engineer",
       "url": "https://ethjuniors.ch/",
       "location": "Zurich, Switzerland",
+      "location-url": "https://www.openstreetmap.org/?mlat=47.40&mlon=8.57#map=5/47.40/8.57",
       "startDate": "2020-10-01",
       "endDate": "2021-09-01",
       "summary": "Creating a wide variety of software solutions for a varied field of customers across different industries."
@@ -62,6 +67,7 @@
       "position": "Full Stack Engineer",
       "url": "https://ategra.ch/",
       "location": "Zurich, Switzerland",
+      "location-url": "https://www.openstreetmap.org/?mlat=47.40&mlon=8.57#map=5/47.40/8.57",
       "startDate": "2015-08-01",
       "endDate": "2018-12-20",
       "summary": "Developing and maintaining platforms and a Platform as a Service for business customers from both industry and state authorities.",
@@ -73,6 +79,7 @@
       "name": "Layzapp AG",
       "position": "Frontend Developer",
       "location": "Zurich, Switzerland",
+      "location-url": "https://www.openstreetmap.org/?mlat=47.40&mlon=8.57#map=5/47.40/8.57",
       "startDate": "2014-01-01",
       "endDate": "2015-04-01",
       "summary": "Development of cross-platform and native application for mobile platforms"
@@ -90,6 +97,7 @@
     {
       "institution": "Eidgenössische Technische Hochschule Zürich (ETH Zürich)",
       "location": "Zurich, Switzerland",
+      "location-url": "https://www.openstreetmap.org/?mlat=47.40&mlon=8.57#map=5/47.40/8.57",
       "url": "https://ethz.ch/de.html",
       "area":"Computer Science",
       "studyType": "Bachelor of Science",
@@ -99,6 +107,7 @@
     {
       "institution": "Eidgenössische Technische Hochschule Zürich (ETH Zürich)",
       "location": "Zurich, Switzerland",
+      "location-url": "https://www.openstreetmap.org/?mlat=47.40&mlon=8.57#map=5/47.40/8.57",
       "url": "https://ethz.ch/de.html",
       "area":"Computer Science",
       "studyType": "Master of Science",
@@ -108,6 +117,7 @@
     {
       "institution": "Kantonsschule Zürcher Oberland (KZO)",
       "location": "Wetzikon, Switzerland",
+      "location-url": "https://www.openstreetmap.org/?mlat=47.31&mlon=8.83#map=5/47.31/8.83",
       "url": "https://www.kzo.ch/",
       "area":"Maturität",
       "studyType": "Highschool",
@@ -119,6 +129,7 @@
     {
       "organization": "Institute for Global Negotiation",
       "location": "Switzerland",
+      "location-url": "https://www.openstreetmap.org/?mlat=47.40&mlon=8.57#map=5/47.40/8.57",
       "position": "Boardmember",
       "url": "https://www.global-negotiation.org/",
       "startDate": "2020-06",
@@ -128,6 +139,7 @@
     {
       "organization": "Noble Noise",
       "location": "Wetzikon, Switzerland",
+      "location-url": "https://www.openstreetmap.org/?mlat=47.31&mlon=8.83#map=5/47.31/8.83",
       "position": "Communication and Social Media, Webmaster",
       "startDate": "2012-01",
       "endDate": "2017-10",
@@ -226,22 +238,22 @@
     {
       "language": "German",
       "fluency": "Native or bilingual proficiency",
-      "icon": "🇨🇭"
+      "icon": "🇨🇭 "
     },
     {
       "language": "English",
       "fluency": "Full professional proficiency",
-      "icon": "🇬🇧"
+      "icon": "🇬🇧 "
     },
     {
       "language":"French",
       "fluency": "Limited working proficiency",
-      "icon": "🇫🇷"
+      "icon": "🇫🇷 "
     },
     {
       "language": "Bokmål (Norwegian)",
       "fluency": "Professional working proficiency",
-      "icon": "🇳🇴"
+      "icon": "🇳🇴 "
     }
   ],
   "interests": [
