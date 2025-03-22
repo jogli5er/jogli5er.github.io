@@ -6,7 +6,7 @@
     "email": "roman.k.brunner@ieee.org",
     "phone": "+47 969 22 586",
     // "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "Experienced softare engineer and hardware architect in training",
+    "summary": "Experienced softare engineer and prospective hardware architect",
     "location": {
       "address": "Odins Veg 3",
       "postalCode": "7033",
@@ -125,28 +125,6 @@
       "endDate": "2013-08"
     }
   ],
-  "volunteer": [
-    {
-      "organization": "Institute for Global Negotiation",
-      "location": "Switzerland",
-      "location-url": "https://www.openstreetmap.org/?mlat=47.40&mlon=8.57#map=5/47.40/8.57",
-      "position": "Boardmember",
-      "url": "https://www.global-negotiation.org/",
-      "startDate": "2020-06",
-      "endDate": "2024-05",
-      "summary": "Acting as accountant and technical advisor on the Board of the Institute for Global Negotiation (IGN)"
-    },
-    {
-      "organization": "Noble Noise",
-      "location": "Wetzikon, Switzerland",
-      "location-url": "https://www.openstreetmap.org/?mlat=47.31&mlon=8.83#map=5/47.31/8.83",
-      "position": "Communication and Social Media, Webmaster",
-      "startDate": "2012-01",
-      "endDate": "2017-10",
-      "summary": "Providing web services to the funk band Noble Noise",
-      "url": "#"
-    }
-  ],
   "awards": [
     {
       "title": "Award for Outstanding Matura Paper",
@@ -209,7 +187,8 @@
         "Workload Characterization",
         "Memory Subsystem",
         "In-Memory Computation",
-        "Predictive Algorithms"
+        "Predictive Algorithms",
+        "Hardware-Software Co-Design"
       ]
     },
     {
@@ -217,11 +196,11 @@
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Good Communicator",
+        "Strong Communicator",
         "Problem Solver",
-        "Forward thinking",
-        "Curious",
-        "Honest"
+        "Forward Thinking",
+        "Creative, Curious & Innovative",
+        "Ethical Responsible"
       ]
     }
   ],
@@ -238,22 +217,22 @@
     {
       "language": "German",
       "fluency": "Native or bilingual proficiency",
-      "icon": "🇨🇭 "
+      "icon": "🇨🇭"
     },
     {
       "language": "English",
       "fluency": "Full professional proficiency",
-      "icon": "🇬🇧 "
+      "icon": "🇬🇧"
     },
     {
       "language":"French",
       "fluency": "Limited working proficiency",
-      "icon": "🇫🇷 "
+      "icon": "🇫🇷"
     },
     {
       "language": "Bokmål (Norwegian)",
       "fluency": "Professional working proficiency",
-      "icon": "🇳🇴 "
+      "icon": "🇳🇴"
     }
   ],
   "interests": [
@@ -318,6 +297,28 @@
       "summary": "Qwittig was a cross-platform financial management app designed for groups of all sizes sharing resources. It streamlined bookkeeping and automated inter-party reimbursements, making expense tracking and cost-sharing effortless",
       "startDate": "2013-08",
       "endDate": "2014-01",
+      "url": "#"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Institute for Global Negotiation",
+      "location": "Switzerland",
+      "location-url": "https://www.openstreetmap.org/?mlat=47.40&mlon=8.57#map=5/47.40/8.57",
+      "position": "Boardmember",
+      "url": "https://www.global-negotiation.org/",
+      "startDate": "2020-06",
+      "endDate": "2024-05",
+      "summary": "Acting as accountant and technical advisor on the Board of the Institute for Global Negotiation (IGN)"
+    },
+    {
+      "organization": "Noble Noise",
+      "location": "Wetzikon, Switzerland",
+      "location-url": "https://www.openstreetmap.org/?mlat=47.31&mlon=8.83#map=5/47.31/8.83",
+      "position": "Communication and Social Media, Webmaster",
+      "startDate": "2012-01",
+      "endDate": "2017-10",
+      "summary": "Providing web services to the funk band Noble Noise",
       "url": "#"
     }
   ]

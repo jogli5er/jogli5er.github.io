@@ -28,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Improving computational efficiency is essential for advancing any aspect of computing, ranging from cloud to embedded computing. My diverse academic interests bridge physics, computer science, engineering, and multilateral negotiations, fostering a unique interdisciplinary approach to technological challenges.
+Improving computational efficiency is essential for advancing any aspect of computing, ranging from cloud to embedded computing. My diverse academic interests bridge computer science, engineering, physics, and multilateral negotiations, fostering a unique interdisciplinary approach to technological challenges.
 
 ## Research
 
