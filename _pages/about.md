@@ -3,16 +3,16 @@ layout: about
 title: About
 permalink: /
 subtitle: <p>
-    PhD Candidate at <a href='https://www.ntnu.edu/idi/cal#/view/about'>CAL</a>@<a href='https://www.ntnu.edu/'>NTNU</a><br>
-    <a href='https://ethz.ch/en/studies/master/degree-programmes/engineering-sciences/computer-science.html'>Master of Science ETH in Computer Science</a><br>
-    <a href='/cv/'>Experienced Full Stack Engineer</a><br>
+  PhD Candidate at <a href='https://www.ntnu.edu/idi/cal#/view/about'>CAL</a>@<a href='https://www.ntnu.edu/'>NTNU</a><br>
+  <a href='https://ethz.ch/en/studies/master/degree-programmes/engineering-sciences/computer-science.html'>Master of Science ETH in Computer Science</a><br>
+  <a href='/cv/'>Experienced Full Stack Engineer</a><br>
   </p>
 
 profile:
   align: right
   image: prof_pic_color.jpg
   image_circular: true # crops the image to make it circular
-  more_info: 
+  more_info:
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -53,8 +53,8 @@ Beyond my technical work, I have a strong interest in politics and international
 I firmly believe that every engineer should have foundational negotiation training. Not only is it valuable for personal situations like salary discussions, but it also enhances an engineer's professional effectiveness. Engineers frequently collaborate with diverse stakeholders, and strong negotiation skills help bridge technical and strategic decision-making. If you're looking to develop these skills, I highly recommend exploring negotiation training opportunities at your host organization or participating in the [Global Negotiation Conference](https://www.global-negotiation.org/gnc), a summer school hosted by IGN. If those aren't an option, feel free to reach out to me or the team at IGN for other opportunities.
 
 ## Interests
-  * Computer Architecture
-  * Workload Characterization
-  * Negotiations
-  * Mountaineering
 
+- Computer Architecture
+- Workload Characterization
+- Negotiations
+- Mountaineering

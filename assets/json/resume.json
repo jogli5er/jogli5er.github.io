@@ -99,7 +99,7 @@
       "location": "Zurich, Switzerland",
       "location-url": "https://www.openstreetmap.org/?mlat=47.40&mlon=8.57#map=5/47.40/8.57",
       "url": "https://ethz.ch/de.html",
-      "area":"Computer Science",
+      "area": "Computer Science",
       "studyType": "Bachelor of Science",
       "startDate": "2013-09",
       "endDate": "2018-08"
@@ -109,7 +109,7 @@
       "location": "Zurich, Switzerland",
       "location-url": "https://www.openstreetmap.org/?mlat=47.40&mlon=8.57#map=5/47.40/8.57",
       "url": "https://ethz.ch/de.html",
-      "area":"Computer Science",
+      "area": "Computer Science",
       "studyType": "Master of Science",
       "startDate": "2018-09",
       "endDate": "2021-08"
@@ -119,7 +119,7 @@
       "location": "Wetzikon, Switzerland",
       "location-url": "https://www.openstreetmap.org/?mlat=47.31&mlon=8.83#map=5/47.31/8.83",
       "url": "https://www.kzo.ch/",
-      "area":"Maturität",
+      "area": "Maturität",
       "studyType": "Highschool",
       "startDate": "2007-08",
       "endDate": "2013-08"
@@ -195,13 +195,7 @@
       "name": "Personal",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Strong Communicator",
-        "Problem Solver",
-        "Forward Thinking",
-        "Creative, Curious & Innovative",
-        "Ethical Responsible"
-      ]
+      "keywords": ["Strong Communicator", "Problem Solver", "Forward Thinking", "Creative, Curious & Innovative", "Ethical Responsible"]
     }
   ],
   "certificates": [
@@ -225,7 +219,7 @@
       "icon": "🇬🇧"
     },
     {
-      "language":"French",
+      "language": "French",
       "fluency": "Limited working proficiency",
       "icon": "🇫🇷"
     },
@@ -239,36 +233,17 @@
     {
       "name": "Computer Science",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Computer Architecture",
-        "Operating Systems",
-        "Quantum Architectures",
-        "Memory Subsystem",
-        "Branch Prediction",
-        "Visual Computing"
-      ]
+      "keywords": ["Computer Architecture", "Operating Systems", "Quantum Architectures", "Memory Subsystem", "Branch Prediction", "Visual Computing"]
     },
     {
       "name": "Multilateral Negoation",
       "icon": "fa-solid fa-tag",
-      "keywords":[
-        "Trust Building",
-        "Negotiation Simulation Infrastructure",
-        "Negotiation Engineering",
-        "Game Theory"
-      ]
+      "keywords": ["Trust Building", "Negotiation Simulation Infrastructure", "Negotiation Engineering", "Game Theory"]
     },
     {
       "name": "Sports",
       "icon": "fa-solid fa-tag",
-      "keywords":[
-        "Mountaineering",
-        "Downhill and Backcountry Skiing",
-        "Sports Climbing",
-        "Ice Climbing",
-        "Dry Tooling",
-        "Hiking"
-      ]
+      "keywords": ["Mountaineering", "Downhill and Backcountry Skiing", "Sports Climbing", "Ice Climbing", "Dry Tooling", "Hiking"]
     }
   ],
   "references": [
