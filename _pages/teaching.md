@@ -9,7 +9,7 @@ nav_order: 6
 
 ## Courses
 
-* [TDT4186 Operating Systems](https://www.ntnu.edu/studies/courses/TDT4186/2021#tab=omEmnet) ([@NTNU](https://www.ntnu.edu/)): I'm the current teaching assistant and responsible for the labs and exercises. The main goal is to give students an introduction to operating sysmtes, and apply the presented concepts in a small, but fully functional, operating system. For the labs we are using XV6 as used in [6.1810 Operating System Engineerin @ MIT](https://pdos.csail.mit.edu/6.828/2024/index.html).
+* [TDT4186 Operating Systems](https://www.ntnu.edu/studies/courses/TDT4186/2021#tab=omEmnet) ([@NTNU](https://www.ntnu.edu/)): I'm the current teaching assistant and responsible for the labs and exercises. The main goal is to give students an introduction to operating sysmtes, and apply the presented concepts in a small, but fully functional, operating system. For the labs we are using XV6 as used in [6.1810 Operating System Engineering @ MIT](https://pdos.csail.mit.edu/6.828/2024/index.html).
 * [TDT4258 Low Level Programming](https://www.ntnu.edu/studies/courses/TDT4258#tab=omEmnet) ([@NTNU](https://www.ntnu.edu/)): I was the teaching assistant for low level programming from 2022-2024. The focus of the course is to provide a comprehensive overview of the challenges that engineers face when working with embedded systems. In the labs of low level programming, we focus on practical aspects of embedded systems, ranging from assembly programming to driver development for the SenseHAT expansion board for the Raspberry Pi.
 
 ## Master Theses
