@@ -14,9 +14,15 @@ nav_order: 6
 
 ## Master Theses
 
+### 2025
+
+- **Børge Lundsaunet**: [Evaluating LuaJIT's Microarchitectural Performance](https://hdl.handle.net/11250/5332136)
+- **Eik Hvattum Røgeberg**: [Improving Performance in Warehouse Scale Computers by Mitigating Context Switch-Induced Front-End Pollution](https://hdl.handle.net/11250/5332172)
+- **Magnus Øvre Sygard**: [Reducing the number of indirect jumps in the Python Interpreter's Dispatch Method through Denormalization](https://hdl.handle.net/11250/3221852)
+
 ### 2024
 
-- **Elias Orrem**: [Effective microarchitectural support for interpreted languages](https://app.cristin.no/results/show.jsf?id=2304317)
+- **Elias Orrem**: [Effective microarchitectural support for interpreted languages](https://hdl.handle.net/11250/3155909)
 
 [//]: # "For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course."
 [//]: # "Organize your courses by years, topics, or universities, however you like!"
