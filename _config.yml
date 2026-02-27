@@ -264,7 +264,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Brunner]
-  first_name: [Roman, K.]
+  first_name: [Roman K.]
 
   style: ieee
   locale: en
