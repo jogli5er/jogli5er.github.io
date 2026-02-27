@@ -1,5 +1,33 @@
 ---
 ---
+@inproceedings{brunner2024btbtag,
+  title             = {Understanding BTB Tag Sizing},
+  author            = {Brunner, Roman K. and Kumar, Rakesh},
+  booktitle         = {IEEE International Symposium on Performance Analysis of Systems and Software},
+  year              = {2026},
+  publisher         = {IEEE},
+  preview           = {ispasstag.png},
+  selected          = {true},
+  google_scholar_id = {qjMakFHDy7sC}
+}
+@article{brunner2026liteBTB,
+  author={Brunner, Roman K. and Kumar, Rakesh},
+  journal={IEEE Computer Architecture Letters}, 
+  title={Driving the Core Frontend with LiteBTB}, 
+  year={2026},
+  volume={},
+  number={},
+  abstract={Branch target buffer (BTB) is a central component of high performance core front-ends as it not only steers instruction fetch by uncovering upcoming control flow but also enables highly effective fetch-directed instruction prefetching. However, the massive instruction footprints of modern server applications far exceed the capacities of moderately sized BTBs, resulting in frequent misses that inevitably hurt performance. While commercial CPUs deploy large BTBs to mitigate this problem, they incur high storage and area overheads. Prior efforts to reduce BTB storage have primarily targeted branch targets, which has proven highly effective — so much that the tag storage now dominates the BTB storage budget. We make a key observation that BTBs exhibit a large degree of tag redundancy, i.e. only a small fraction of entries contain unique tags, and this fraction falls sharply as BTB capacity grows. Leveraging this insight, we propose LiteBTB, which employs a dedicated hardware structure to store unique tags only once and replaces per-entry tags in BTB with compact tag pointers. To avoid latency overheads, LiteBTB accesses the tag storage and BTB in parallel. Our evaluation shows that LiteBTB reduces storage by up to 13.1% compared to the state-of-the-art BTB design, called BTB-X, while maintaining equivalent performance. Alternatively, with the same storage budget, LiteBTB accommodates up to 1.125× more branches, yielding up to 2.7% performance improvement.},
+  keywords={Servers;Prefetching;Hardware;Redundancy;Program processors;Pipelines;Market research;Indexing;Costs;Complexity theory},
+  doi={10.1109/LCA.2026.3663702},
+  url               = {https://ieeexplore.ieee.org/document/11391652},
+  html              = {https://ieeexplore.ieee.org/document/11391652},
+  preview           = {litebtb.png},
+  pdf               = {https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11391652},
+  ISSN={1556-6064},
+  month={},
+}
+
 @inproceedings{brunner2024weeding,
   title             = {Weeding out Frontend Stalls with Uneven Block Size Instruction Cache},
   author            = {Brunner, Roman and Kumar, Rakesh},
@@ -9,7 +37,7 @@
   url               = {https://ieeexplore.ieee.org/document/10764658},
   html              = {https://ieeexplore.ieee.org/document/10764658},
   preview           = {ubs_heading.png},
-  pdf               = {https://ieeexplore.ieee.org/document/10764658},
+  pdf               = {https://rakeshk.folk.ntnu.no/pubs/UBS_MICRO24.pdf},
   selected          = {true},
   google_scholar_id = {qjMakFHDy7sC}
 }
