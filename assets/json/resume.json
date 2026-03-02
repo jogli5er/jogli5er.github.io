@@ -182,7 +182,7 @@
       "date": "2021-10",
       "issuer": "Testdome",
       "url": "https://app.testdome.com/cert/493851e31f3445178e01fceb0f84c19f",
-      "icon": "fa-solid fa-location-dot"
+      "icon": "fa-solid fa-certificate"
     }
   ],
   "languages": [
@@ -220,7 +220,7 @@
     },
     {
       "name": "Sports",
-      "icon": "fa-solid fa-futbol-o",
+      "icon": "fa fa-futbol-o",
       "keywords": ["Mountaineering", "Downhill and Backcountry Skiing", "Sports Climbing", "Ice Climbing", "Dry Tooling", "Hiking"]
     }
   ],
