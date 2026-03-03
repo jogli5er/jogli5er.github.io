@@ -88,6 +88,7 @@
     {
       "institution": "Norwegian University of Science and Technology (NTNU)",
       "location": "Trondheim, Norway",
+      "location-url": "https://www.openstreetmap.org/?mlat=63.39&mlon=10.46#map=4/63.39/10.46",
       "url": "https://www.ntnu.edu/",
       "area": "Computer Science",
       "studyType": "PhD",
@@ -202,7 +203,7 @@
       "icon": "🇫🇷"
     },
     {
-      "language": "Bokmål (Norwegian)",
+      "language": "Norwegian (Bokmål)",
       "fluency": "Professional working proficiency",
       "icon": "🇳🇴"
     }
@@ -220,7 +221,7 @@
     },
     {
       "name": "Sports",
-      "icon": "fa fa-futbol-o",
+      "icon": "fa-solid fa-futbol",
       "keywords": ["Mountaineering", "Downhill and Backcountry Skiing", "Sports Climbing", "Ice Climbing", "Dry Tooling", "Hiking"]
     }
   ],
