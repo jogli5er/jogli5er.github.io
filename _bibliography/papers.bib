@@ -1,10 +1,11 @@
 ---
 ---
-@inproceedings{brunner2024btbtag,
+@inproceedings{brunner2026btbtag,
   title             = {Understanding BTB Tag Sizing},
   author            = {Brunner, Roman K. and Kumar, Rakesh},
   booktitle         = {IEEE International Symposium on Performance Analysis of Systems and Software},
   year              = {2026},
+  month={4},
   publisher         = {IEEE},
   abstract={The large branch footprints of contemporary applications easily overwhelm the capacity of Branch target buffers (BTBs). Therefore, to avoid frequent BTB misses and their associated performance penalties, commercial processors feature massive BTBs that require hundreds of KBs to multi-MB storage budgets. Furthermore, storage requirements are increasing at an alarming rate, a trend that is certainly not sustainable. As the bulk of BTB storage budget goes towards storing branch targets, researchers have recently proposed storage-efficient schemes for target representation. The state-of-the-art schemes are so effective that branch targets no longer dominate the BTB storage requirements, rather, the tags do. However, there has not been any study on understanding the implications of tag size on performance, storage, and aliasing. This work bridges this gap by performing a comprehensive study of how and why tag size requirements vary for performance- and storage-efficiency-oriented BTB designs across different BTB capacities. The results of the study help BTB designers understand where in BTB to invest any additional storage budget that becomes available in next processor generations. The key findings of this study include: 1) moderately sized BTBs (2K to 8K entries) require larger tags than small (256-entry) and large (32K entry) BTBs, 2) increasing the number of ways in the BTB also requires larger tags to fully realize the benefits of the additional ways, and 3) a storage-efficient BTB design reduces tag storage requirements by up to 21% over a performance-oriented BTB design.},
   preview           = {ispasstag.png},
@@ -14,8 +15,8 @@
   journal={IEEE Computer Architecture Letters}, 
   title={Driving the Core Frontend with LiteBTB}, 
   year={2026},
-  volume={},
-  number={},
+  volume={25},
+  number={1},
   abstract={Branch target buffer (BTB) is a central component of high performance core front-ends as it not only steers instruction fetch by uncovering upcoming control flow but also enables highly effective fetch-directed instruction prefetching. However, the massive instruction footprints of modern server applications far exceed the capacities of moderately sized BTBs, resulting in frequent misses that inevitably hurt performance. While commercial CPUs deploy large BTBs to mitigate this problem, they incur high storage and area overheads. Prior efforts to reduce BTB storage have primarily targeted branch targets, which has proven highly effective — so much that the tag storage now dominates the BTB storage budget. We make a key observation that BTBs exhibit a large degree of tag redundancy, i.e. only a small fraction of entries contain unique tags, and this fraction falls sharply as BTB capacity grows. Leveraging this insight, we propose LiteBTB, which employs a dedicated hardware structure to store unique tags only once and replaces per-entry tags in BTB with compact tag pointers. To avoid latency overheads, LiteBTB accesses the tag storage and BTB in parallel. Our evaluation shows that LiteBTB reduces storage by up to 13.1% compared to the state-of-the-art BTB design, called BTB-X, while maintaining equivalent performance. Alternatively, with the same storage budget, LiteBTB accommodates up to 1.125× more branches, yielding up to 2.7% performance improvement.},
   keywords={Servers;Prefetching;Hardware;Redundancy;Program processors;Pipelines;Market research;Indexing;Costs;Complexity theory},
   url               = {https://ieeexplore.ieee.org/document/11391652},
@@ -24,7 +25,7 @@
   pdf               = {litebtb_preprint.pdf},
   ISSN={1556-6064},
   selected          = {true},
-  month={},
+  month={2},
   google_scholar_id = {UeHWp8X0CEIC}
 }
 
