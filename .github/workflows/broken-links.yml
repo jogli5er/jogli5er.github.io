@@ -48,5 +48,5 @@ jobs:
         uses: lycheeverse/lychee-action@v2.1.0
         with:
           fail: true
-          # removed md files that include liquid tags
-          args: --user-agent 'curl/7.54' --exclude-path README.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _posts/2018-12-22-distill.md --exclude-path _posts/2023-04-24-videos.md --exclude-path _books/the_godfather.md --verbose --no-progress './**/*.md' './**/*.html'
+          # Exclude inherited template/demo files with Liquid or unstable external links.
+          args: --user-agent 'curl/7.54' --exclude-path README.md --exclude-path FAQ.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _posts/2015-07-15-code.md --exclude-path _posts/2015-10-20-math.md --exclude-path _posts/2018-12-22-distill.md --exclude-path _posts/2023-04-24-videos.md --exclude-path _posts/2023-05-12-custom-blockquotes.md --exclude-path _projects/3_project.md --exclude-path _books/the_godfather.md --verbose --no-progress './**/*.md' './**/*.html'
