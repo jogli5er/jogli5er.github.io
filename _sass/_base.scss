@@ -243,6 +243,14 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+.post .desc a,
+.post article p a,
+footer a {
+  text-decoration: underline;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.15em;
+}
+
 // Navbar customization
 
 .navbar {
@@ -779,8 +787,8 @@ footer.sticky-bottom {
         }
 
         > span.more-authors {
-          color: var(--global-text-color-light);
-          border-bottom: 1px dashed var(--global-text-color-light);
+          color: var(--global-text-color);
+          border-bottom: 1px dashed var(--global-text-color);
           cursor: pointer;
 
           &:hover {

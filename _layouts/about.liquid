@@ -27,10 +27,10 @@ layout: default
       rounded' %}
           {% endif %}
           {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 60 | times: 0.3}}px, (min-width: 450px)
-      30vw, 95vw"{% endcapture %}
+      30vw, 95vw{% endcapture %}
           {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
+            include figure.liquid loading="eager" fetchpriority="high" path=profile_image_path class=profile_image_class sizes=sizes
+            width=400 height=400 alt=page.profile.image cache_bust=true
           %}
         {% endif %}
         {% if page.profile.more_info %}

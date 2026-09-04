@@ -16,6 +16,8 @@ profile:
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+lightweight: true # skip non-critical framework styles on the landing page
+math: false # avoid loading MathJax on a page with no mathematical notation
 
 announcements:
   enabled: false # includes a list of news items

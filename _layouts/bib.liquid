@@ -32,9 +32,11 @@
           {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
           {%
             include figure.liquid
-            loading="eager"
+            loading="lazy"
             path=entry_path
             sizes = "200px"
+            width=entry.preview_width
+            height=entry.preview_height
             class="preview z-depth-1 rounded"
             zoomable=true
             alt=entry.preview
@@ -357,7 +359,7 @@
       <div class="bibtex hidden">
         {% highlight bibtex %}
         {{- entry.bibtex | hideCustomBibtex -}}
-        {% endhighlight %}
+      {% endhighlight %}
       </div>
     {% endif %}
 

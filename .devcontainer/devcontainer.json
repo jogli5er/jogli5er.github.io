@@ -12,8 +12,25 @@
     "ghcr.io/devcontainers-contrib/features/prettier:1.0.2": {}
   },
 
-  // Optionally: run jekyll serve automatically on container entering using the Docker entrypoint
-  "postAttachCommand": "./bin/entry_point.sh",
+  // The base image points Bundler at /usr/local/bundle, which is not writable by
+  // remoteUser. Keep project gems in the workspace instead.
+  "containerEnv": {
+    "BUNDLE_PATH": "${containerWorkspaceFolder}/.bundle"
+  },
+
+  "forwardPorts": [4000, 35729],
+  "portsAttributes": {
+    "4000": {
+      "label": "Jekyll",
+      "onAutoForward": "openPreview"
+    },
+    "35729": {
+      "label": "LiveReload"
+    }
+  },
+
+  "postCreateCommand": "bundle install && npm install",
+  "postAttachCommand": "make run HOST=0.0.0.0 PORT=4000",
 
   "customizations": {
     "vscode": {
