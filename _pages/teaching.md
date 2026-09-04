@@ -14,6 +14,10 @@ nav_order: 6
 
 ## Master Theses
 
+### 2026
+
+- **Callum Gran**: The Dichotomy of Control Flow: Utilising Invariant Branches in Serverless Workloads
+
 ### 2025
 
 - **Børge Lundsaunet**: [Evaluating LuaJIT's Microarchitectural Performance](https://hdl.handle.net/11250/5332136)
