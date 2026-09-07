@@ -9,6 +9,10 @@ FROM ruby:slim
 
 ENV DEBIAN_FRONTEND noninteractive
 
+ARG USERNAME=vscode
+ARG USER_UID=1000
+ARG USER_GID=$USER_UID
+
 LABEL authors="Amir Pourmand,George Araújo" \
       description="Docker image for al-folio academic template" \
       maintainer="Amir Pourmand"
@@ -33,6 +37,9 @@ RUN apt-get update -y && \
         python3-pip \
         zlib1g-dev && \
     pip --no-cache-dir install --upgrade --break-system-packages nbconvert
+
+RUN groupadd --gid $USER_GID $USERNAME && \
+    useradd --uid $USER_UID --gid $USER_GID --create-home --shell /bin/bash $USERNAME
 
 # clean up
 RUN apt-get clean && \

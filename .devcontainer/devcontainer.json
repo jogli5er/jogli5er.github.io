@@ -2,7 +2,10 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/jekyll
 {
   "name": "Jekyll",
-  "image": "mcr.microsoft.com/devcontainers/jekyll",
+  "build": {
+    "dockerfile": "../Dockerfile",
+    "context": ".."
+  },
 
   // Features to add to the dev container. More info: https://containers.dev/features.
   "features": {
@@ -29,8 +32,8 @@
     }
   },
 
-  "postCreateCommand": "bundle install && npm install",
-  "postAttachCommand": "make run HOST=0.0.0.0 PORT=4000",
+  "postCreateCommand": "make install",
+  "postStartCommand": "nohup make run HOST=0.0.0.0 PORT=4000 > /tmp/jekyll.log 2>&1 &",
 
   "customizations": {
     "vscode": {
