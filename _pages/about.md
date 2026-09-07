@@ -5,7 +5,7 @@ permalink: /
 subtitle: <p>
   PhD Candidate at <a href='https://www.ntnu.edu/idi/cal#/view/about'>CAL</a>@<a href='https://www.ntnu.edu/'>NTNU</a><br>
   <a href='https://ethz.ch/en/studies/master/degree-programmes/engineering-sciences/computer-science.html'>Master of Science ETH in Computer Science</a><br>
-  <a href='/cv/'>Experienced Full Stack Engineer</a><br>
+  <a href='/cv/'>Experienced Full-Stack Engineer</a><br>
   </p>
 
 profile:
@@ -36,9 +36,9 @@ I’m currently pursuing a PhD at the [Norwegian University for Science and Tech
 
 My research focuses on optimizing microarchitectural and algorithmic specializations in high-performance processors to better support cloud workloads. The overarching aim is to enhance efficiency and reduce the environmental footprint of cloud services, an increasingly crucial challenge as global internet adoption continues.
 
-Achieving an efficien cloud computing stack requires optimizations across multiple layers, ranging from hardware over systems software such as the OS and the compiler, to workload management. I’m particularly interested in how those different parts of the computing stack can be designed to work together more effectively.
+Achieving an efficient cloud computing stack requires optimizations across multiple layers, ranging from hardware and systems software such as the OS and the compiler, to workload management. I’m particularly interested in how those different parts of the computing stack can be designed to work together more effectively.
 
-In my work, I think about the limits of traditional scaling in computing. Historically, scaling up with bigger, faster cores eventually ran into physical constraints, like power consumption and memory latency bottlenecks. Scaling out across machines in the cloud is currently still progressing, but it also has limits, as communication latency ultimately can't beat the speed of light. My research explores a scaling direction that could be described as "scaling in". It targets reducing the amount of information stored and processed in our processor pipeline. Of course, also this scaling direction comes with its own limit, resulting from information theory describing information content and minimal representations.
+In my work, I think about the limits of traditional scaling in computing. Historically, scaling up with bigger, faster cores eventually ran into physical constraints, like power consumption and memory latency bottlenecks. Scaling out across machines in the cloud is currently still progressing, but it also has limits, as communication latency ultimately can't beat the speed of light. My research explores a scaling direction that could be described as "scaling in". It targets reducing the amount of information stored and processed in our processor pipeline. Of course, this scaling direction also comes with its own limit, resulting from information theory describing information content and minimal representations.
 
 ## Engineering
 

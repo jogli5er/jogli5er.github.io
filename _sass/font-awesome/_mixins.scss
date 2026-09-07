@@ -1,4 +1,6 @@
 @use "sass:string";
+@use "functions" as *;
+@use "variables" as *;
 // including all style-specific font properties
 // mixins
 // --------------------------
