@@ -1,5 +1,22 @@
 ---
 ---
+
+@article{brunner2026liteBTBMICRO,
+  author={Brunner, Roman K. and Kumar, Rakesh},
+  journal={59th IEEE/ACM International Symposium on Microarchitecture}, 
+  title={The Path to BTB Storage Efficiency Goes Through Tags}, 
+  year={2026},
+  abstract={Modern server workloads exhibit multi-megabyte code footprints that overwhelm front-end structures such as the branch target buffer (BTB), leading to frequent misses and significant performance degradation. BTB misses are particularly costly, as they trigger pipeline flushes, expose fetch latency, and reduce the effectiveness of fetch-directed instruction prefetching. To mitigate these effects, modern processors deploy increasingly large BTBs, often requiring hundreds of kilobytes of storage. However, this trend is becoming untenable due to area, energy, and sustainability constraints. Recent work has aggressively optimized branch target representation, shifting the storage bottleneck from targets to tags. We observe that tags now dominate BTB storage and, more importantly, exhibit substantial redundancy as only 23.7% of entries contain unique tags in a 2K-entry BTB, decreasing to just 1.1% at 32K entries. This paper leverages this insight to improve BTB storage efficiency. We propose LiteBTB, a storage-efficient BTB design that eliminates tag redundancy by storing each unique tag once in a centralized structure called the Unique Tag Buffer (UTB) and replacing per-entry tags with compact pointers. To avoid increasing access latency, LiteBTB accesses the UTB and BTB in parallel. Our evaluation shows that LiteBTB reduces BTB storage by 5.4% to 13.1% compared to the state-of-the-art BTB-X, for storing 2K to 32K branches while providing similar performance.},
+  keywords={branch target buffer, microarchitecture, storage efficiency},
+  url               = {},
+  html              = {},
+  preview           = {litebtb_diagram.png},
+  pdf               = {LiteBTB_MICRO26.pdf},
+  ISSN={},
+  selected          = {true},
+  month={2},
+  google_scholar_id = {}
+}
 @inproceedings{brunner2026btbtag,
   title             = {Understanding BTB Tag Sizing},
   author            = {Brunner, Roman K. and Kumar, Rakesh},
@@ -10,6 +27,7 @@
   html              = {https://ieeexplore.ieee.org/abstract/document/11527249/},
   doi               = {10.1109/ISPASS69572.2026.00043},
   month={4},
+  google_scholar_id = {zYLM7Y9cAGgC},
   publisher         = {IEEE},
   abstract={The large branch footprints of contemporary applications easily overwhelm the capacity of Branch target buffers (BTBs). Therefore, to avoid frequent BTB misses and their associated performance penalties, commercial processors feature massive BTBs that require hundreds of KBs to multi-MB storage budgets. Furthermore, storage requirements are increasing at an alarming rate, a trend that is certainly not sustainable. As the bulk of BTB storage budget goes towards storing branch targets, researchers have recently proposed storage-efficient schemes for target representation. The state-of-the-art schemes are so effective that branch targets no longer dominate the BTB storage requirements, rather, the tags do. However, there has not been any study on understanding the implications of tag size on performance, storage, and aliasing. This work bridges this gap by performing a comprehensive study of how and why tag size requirements vary for performance- and storage-efficiency-oriented BTB designs across different BTB capacities. The results of the study help BTB designers understand where in BTB to invest any additional storage budget that becomes available in next processor generations. The key findings of this study include: 1) moderately sized BTBs (2K to 8K entries) require larger tags than small (256-entry) and large (32K entry) BTBs, 2) increasing the number of ways in the BTB also requires larger tags to fully realize the benefits of the additional ways, and 3) a storage-efficient BTB design reduces tag storage requirements by up to 21% over a performance-oriented BTB design.},
   preview           = {ispasstag.png},
@@ -29,7 +47,7 @@
   preview           = {litebtb.png},
   pdf               = {litebtb_preprint.pdf},
   ISSN={1556-6064},
-  selected          = {true},
+  selected          = {false},
   month={2},
   google_scholar_id = {UeHWp8X0CEIC}
 }
