@@ -24,12 +24,21 @@
   },
   "work": [
     {
+      "name": "Norwegian University of Science and Technology (NTNU)",
+      "position": "Postdoctoral Researcher",
+      "url": "https://www.ntnu.edu/employees/romankb",
+      "location": "Trondheim, Norway",
+      "location-url": "https://www.openstreetmap.org/?mlat=63.39&mlon=10.46#map=4/63.39/10.46",
+      "startDate": "2026-11-20"
+    },
+    {
       "name": "Computer Architecture Laboratory at the Department of Computer Science at NTNU",
       "position": "PhD Candidate",
       "url": "https://www.ntnu.edu/employees/romankb",
       "location": "Trondheim, Norway",
       "location-url": "https://www.openstreetmap.org/?mlat=63.39&mlon=10.46#map=4/63.39/10.46",
       "startDate": "2022-04-01",
+      "endDate": "2026-11-19",
       "summary": "Research focussed on microarchitectural optimizations for cloud computing workloads. The project involves enhancing core frontends and the attached memory hierarchy. The overarching goal is to increase energy and area efficiency of the implementation while considering the broader impact on the entire stack, including compilers, operating systems, and various software systems."
     },
     {
@@ -92,7 +101,8 @@
       "url": "https://www.ntnu.edu/",
       "area": "Computer Science",
       "studyType": "PhD",
-      "startDate": "2022-04"
+      "startDate": "2022-04",
+      "endDate": "2026-11-19"
     },
     {
       "institution": "Eidgenössische Technische Hochschule Zürich (ETH Zürich)",

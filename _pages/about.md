@@ -2,11 +2,9 @@
 layout: about
 title: About
 permalink: /
-subtitle: <p>
-  PhD Candidate at <a href='https://www.ntnu.edu/idi/cal#/view/about'>CAL</a>@<a href='https://www.ntnu.edu/'>NTNU</a><br>
-  <a href='https://ethz.ch/en/studies/master/degree-programmes/engineering-sciences/computer-science.html'>Master of Science ETH in Computer Science</a><br>
-  <a href='/cv/'>Experienced Full-Stack Engineer</a><br>
-  </p>
+subtitle: >-
+  Computer Architecture Researcher · Full-Stack Engineer<br>
+  PhD in Computer Science, NTNU · MSc in Computer Science, ETH Zürich
 
 profile:
   align: right
@@ -30,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m currently pursuing a PhD at the [Norwegian University for Science and Technology (NTNU)](https://www.ntnu.edu/), where I work on microarchitectural aspects of processors for cloud computing. My goal is to find ways to make computing systems more efficient and reduce their environmental impact. I’m genuinely curious about how hardware and software layers interact, and I enjoy exploring ideas that may help improve performance in practical settings.
+I’m a computer architecture researcher and full-stack engineer. During my PhD at NTNU, I studied how to make datacenter processors more efficient by reducing the storage their front ends need. My goal is to find ways to make computing systems more efficient and reduce their environmental impact. I’m genuinely curious about how hardware and software layers interact, and I enjoy exploring ideas that may help improve performance in practical settings.
 
 ## Research
 
